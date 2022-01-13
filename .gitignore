@@ -1,0 +1,16 @@
+# IDE folder
+/.idea
+
+# Microsoft office Lockfiles
+~$*
+*.tmp
+
+# Test files
+test.*
+*.test.*
+/test
+
+# Output of compiling
+/out
+/build
+/target
