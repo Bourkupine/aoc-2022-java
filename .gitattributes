@@ -4,15 +4,24 @@
 *.docx filter=lfs diff=lfs merge=lfs -text
 
 
+# Excel
+*.xls filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.xlsm filter=lfs diff=lfs merge=lfs -text
+
+
 # Powerpoints
 *.ppt filter=lfs diff=lfs merge=lfs -text
 *.pptx filter=lfs diff=lfs merge=lfs -text
 
 
-# Images/Video
+# Images
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+
+# Video
+*.mkv filter=lfs diff=lfs merge=lfs -text
 
 
 # Misc
