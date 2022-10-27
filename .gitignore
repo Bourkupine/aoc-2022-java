@@ -19,3 +19,6 @@ test.*
 *.bluej
 *.out
 *.ctxt
+
+# Dealing with Mac users
+.DS_Store
