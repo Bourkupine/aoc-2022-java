@@ -29,7 +29,7 @@ abstract public class Base<T> {
         String path = String.format("./input/%s.txt", this.className);
 
         StringBuilder contentBuilder = new StringBuilder();
-        try (BufferedReader reader = new BufferedReader(new FileReader(path));) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
             String sCurrentLine;
             while ((sCurrentLine = reader.readLine()) != null) {
                 contentBuilder.append(sCurrentLine).append("\n");
