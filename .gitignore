@@ -22,3 +22,6 @@ test.*
 
 # Dealing with Mac users
 .DS_Store
+
+# No need to store the input files going forward
+/input
