@@ -3,7 +3,7 @@ package aoc;
 import java.util.ArrayList;
 
 // Put the return type of the generator in Base<>
-public class _2021_Day01 extends Base<ArrayList<Integer>> {
+public class Year2021_Day01 extends Base<ArrayList<Integer>> {
 
     // The generator's role is to turn teh input file into something useable by part 1 and part 2.
     void generator() {
