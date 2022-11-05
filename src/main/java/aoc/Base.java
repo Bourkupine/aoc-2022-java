@@ -10,14 +10,35 @@ abstract public class Base<T> {
     String input;
     T processed;
 
-    void run(){
+    void run(boolean verbose){
+        long startTime = System.nanoTime();
         this.className = this.getClass().getSimpleName();
         System.out.println(this.className);
 
         getInput();
+        long time_input = System.nanoTime();
         generator();
+        long time_generator = System.nanoTime();
         part1();
+        long time_part1 = System.nanoTime();
         part2();
+        long time_part2 = System.nanoTime();
+
+        if(verbose){
+            System.out.printf(
+                """
+                Time durations (µs):
+                    Generator:  %7d
+                    Part 1:     %7d
+                    Part 2:     %7d
+                    Total:      %7d
+                """,
+                    (time_generator - time_input)/1000,
+                    (time_part1 - time_generator)/1000,
+                    (time_part2 - time_part1)/1000,
+                    (time_part2 - startTime)/1000
+            );
+        }
 
         System.out.println();
     }

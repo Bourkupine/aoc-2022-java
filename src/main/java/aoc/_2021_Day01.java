@@ -28,7 +28,7 @@ public class _2021_Day01 extends Base<ArrayList<Integer>> {
        }
 
        // print out teh result
-       System.out.printf("Part 1: %d", counter);
+       System.out.printf("Part 1: %d %n", counter);
     }
 
     void part2() {
@@ -44,6 +44,6 @@ public class _2021_Day01 extends Base<ArrayList<Integer>> {
         }
 
         // print out teh result
-        System.out.printf("Part 2: %d", counter);
+        System.out.printf("Part 2: %d %n", counter);
     }
 }
