@@ -95,7 +95,6 @@ public class Year2022_Day02 extends Base<ArrayList<String>> {
                     total += 6;
                 }
             }
-
             total += handPoints.get(me);
 
         }
