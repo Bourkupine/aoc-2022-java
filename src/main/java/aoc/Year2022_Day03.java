@@ -23,8 +23,7 @@ public class Year2022_Day03 extends Base<ArrayList<String>> {
         for (String value : this.processed) {
             String a = value.substring(0, value.length() / 2);
 
-            ArrayList<String> b = new ArrayList<>();
-            Collections.addAll(b, value.substring(value.length() / 2).split(""));
+            String b = value.substring(value.length()/2);
 
             for (String s : a.split("")) {
                 if (b.contains(s)) {
