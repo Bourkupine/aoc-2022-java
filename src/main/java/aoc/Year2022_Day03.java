@@ -22,7 +22,6 @@ public class Year2022_Day03 extends Base<ArrayList<String>> {
 
         for (String value : this.processed) {
             String a = value.substring(0, value.length() / 2);
-
             String b = value.substring(value.length()/2);
 
             for (String s : a.split("")) {
