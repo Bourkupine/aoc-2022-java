@@ -7,5 +7,6 @@ public class Main {
         new Year2022_Day03().run(true);
         new Year2022_Day04().run(true);
         new Year2022_Day05().run(true);
+        new Year2022_Day06().run(true);
     }
 }
